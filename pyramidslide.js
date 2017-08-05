@@ -9,9 +9,6 @@ selection.addEventListener("change", function(event) {
   determineHeightAndThenDrawPyramid();
 });
 
-function updateBricks() {
-}
-
 function displayRange() {
   var para = document.getElementById("current");
   para.innerHTML = document.getElementById("height").value;
